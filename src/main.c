@@ -25,10 +25,17 @@
 #define scale 1.
 #endif
 #ifndef lx
+<<<<<<< HEAD
 #define lx 19169
 #endif
 #ifndef ly
 #define ly 1424
+=======
+#define lx 7826
+#endif
+#ifndef ly
+#define ly 2325
+>>>>>>> e10ce4e26b3e33ab0cb34449a8df7fe954929762
 #endif
 
 #ifdef SINGLE_PRECISION
@@ -135,12 +142,21 @@ real ic = 0;
 int npDEM;
 real *rLB;
 
+<<<<<<< HEAD
 int stepView = 800;
 int stepPrint = 1600;
 int stepConsole = 800;
 
 int stepStrob = 5000;  //visualisation steps
 int stepFilm = 10000;
+=======
+int stepView = 400;
+int stepPrint = 800;
+int stepConsole = 400;
+
+int stepStrob = 4000;  //visualisation steps
+int stepFilm = 8000;
+>>>>>>> e10ce4e26b3e33ab0cb34449a8df7fe954929762
 
 FILE* s_stats;
 
